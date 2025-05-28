@@ -1,0 +1,55 @@
+{
+  "name": "claude-nine",
+  "version": "2.0.2",
+  "description": "☁️ Claude Nine - Prompt enhancement for Claude Code. Transform simple prompts into warm, respectful messages that treat Claude as a valued collaborator. Vie McCoy LLM Whispering On Demand.",
+  "type": "module",
+  "main": "claude-nine.js",
+  "bin": {
+    "claude-nine": "./claude-nine.js",
+    "c9": "./claude-nine.js"
+  },
+  "scripts": {
+    "start": "node claude-nine.js",
+    "test": "echo \"No tests yet\"",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "prompt-engineering",
+    "cli",
+    "developer-tools",
+    "productivity",
+    "anthropic",
+    "cyberpunk",
+    "neon",
+    "level-9"
+  ],
+  "author": "Claude Nine Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claude-nine/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claude-nine/cli/issues"
+  },
+  "homepage": "https://github.com/claude-nine/cli#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.29.0",
+    "dotenv": "^16.4.5",
+    "node-pty": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "claude-nine.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

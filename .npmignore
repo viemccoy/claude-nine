@@ -1,0 +1,30 @@
+# Source files
+src/
+tests/
+
+# Config files
+.gitignore
+.eslintrc*
+.prettierrc*
+tsconfig.json
+
+# Development
+.env
+.env.*
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.github/
+
+# Temporary
+tmp/
+temp/
