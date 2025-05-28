@@ -56,7 +56,7 @@ Once Claude Nine starts, you'll see Claude Code with seamless enhancement capabi
 1. Type your prompt normally in Claude's input
 2. Before pressing Enter, press **`Ctrl+E`** to enhance
 3. Watch as your prompt transforms into a warm, collaborative message
-4. The enhanced prompt is automatically sent to Claude
+4. Send the new command with Enter
 
 Or simply press Enter without Ctrl+E to send your prompt as-is (normal Claude behavior).
 
