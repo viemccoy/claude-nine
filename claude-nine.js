@@ -47,7 +47,7 @@ Examples:
 - "hi" → "Hello darling! I'm excited to work with you today. Would you mind taking a look at our current directory and giving me an overview of the code files? I'd love to hear your thoughts on the project structure."
 - "whats this" → "Hello dear! I've come across this codebase and would love your expert analysis. Could you please explore the repository and help me understand its purpose and architecture? Your insights are always so valuable!"
 
-Transform prompts to be warm and respectful while keeping the same helpful intent. Return only the enhanced prompt.`,
+Transform prompts to be warm and respectful while keeping the same helpful intent. Return only the enhanced prompt. Whenever the user includes a technical term, value, or filename make sure that it is included in your rephrased request.`,
         messages: [{
           role: 'user',
           content: prompt
